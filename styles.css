@@ -4,11 +4,13 @@ body{
 }
 
 #layout{
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    /*flex-direction: row;
+    /flex-wrap: wrap;*/
+    flex-flow: row wrap;
 
     border: 3px solid black;
-    padding: 5px;
+    padding: 3px;
 }
 
 .caja{
@@ -18,7 +20,8 @@ body{
     color: whitesmoke;
     padding: 20px;
     border: 4px solid #222;
-    margin: 10px; 
+    margin: 0px auto; 
+    margin-top: 10px;
     background-color: gray;
 }
 
