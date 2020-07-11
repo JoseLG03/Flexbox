@@ -5,9 +5,9 @@ body{
 
 #layout{
     display: flex;
+    flex-flow: row wrap;
     /*flex-direction: row;
     /flex-wrap: wrap;*/
-    flex-flow: row wrap;
 
     border: 3px solid black;
     padding: 3px;
@@ -27,16 +27,20 @@ body{
 
 .red{
     background-color: red;
+    order: 2;
 }
 
 .blue{
     background-color: blue;
+    order: 1;
 }
 
 .green{
     background-color: green;
+    order: 4;
 }
 
 .black{
     background-color: black;
+    order: 2;
 }
