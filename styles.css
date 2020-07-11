@@ -5,6 +5,7 @@ body{
 
 #layout{
     display: inline-flex;
+    flex-direction: row;
 
     border: 3px solid black;
     padding: 5px;
