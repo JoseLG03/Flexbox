@@ -9,11 +9,13 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    align-items: flex-end;
     /*flex-direction: row;
     /flex-wrap: wrap;*/
 
     border: 3px solid black;
     padding: 3px;
+    height: 500px;
 }
 
 .caja{
@@ -29,21 +31,25 @@ body{
 
 .red{
     /*flex-grow: 3;*/
+    align-self: flex-start;
     background-color: var(--rojo);
 }
 
 .blue{
     /*flex-grow: 1;*/
+    align-self: center;
     background-color: blue;
 
 }
 
 .green{
     /*flex-grow: 1;*/
+    align-self: center;
     background-color: green;
 }
 
 .black{
     /*flex-grow: 1;*/
+    align-self: flex-end;
     background-color: black;
 }
