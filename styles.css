@@ -8,6 +8,7 @@ body{
 #layout{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
     /*flex-direction: row;
     /flex-wrap: wrap;*/
 
@@ -18,7 +19,6 @@ body{
 .caja{
     font-size: 20px;
     font-weight: bold;
-    flex-basis: 28%;
     text-align: center;
     color: whitesmoke;
     padding: 20px;
@@ -46,5 +46,4 @@ body{
 .black{
     /*flex-grow: 1;*/
     background-color: black;
-    flex-basis: 100%;
 }
