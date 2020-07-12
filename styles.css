@@ -1,6 +1,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+
+    --rojo:red;
 }
 
 #layout{
@@ -16,8 +18,7 @@ body{
 .caja{
     font-size: 20px;
     font-weight: bold;
-    flex-grow: 1;
-
+    flex-basis: 28%;
     text-align: center;
     color: whitesmoke;
     padding: 20px;
@@ -27,21 +28,23 @@ body{
 }
 
 .red{
-    flex-grow: 3;
-    background-color: red;
+    /*flex-grow: 3;*/
+    background-color: var(--rojo);
 }
 
 .blue{
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     background-color: blue;
+
 }
 
 .green{
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     background-color: green;
 }
 
 .black{
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     background-color: black;
+    flex-basis: 100%;
 }
